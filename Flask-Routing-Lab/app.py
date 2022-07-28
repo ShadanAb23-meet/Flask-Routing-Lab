@@ -6,11 +6,11 @@ app = Flask(
 
 # Your code should be below
 @app.route('/')
-def home():
+def home1():
     return render_template("home.html")
 
 @app.route('/product')
-def home():
+def home2():
     return render_template("product.html")
 
 @app.route('/cart')
